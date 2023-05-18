@@ -35,13 +35,7 @@ const Home = () => {
 
   return (
     <div className='container'>
-        {/* {
-            data?.map((seat) => {
-               return (
-                <Cell data = {seat } />
-               )
-            })
-        } */}
+        
        
         <table>
             <tbody>
