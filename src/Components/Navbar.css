@@ -1,0 +1,53 @@
+.header{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    background-color: #1f8811;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.header__logo{
+   display: flex;
+   object-fit: contain;
+   flex-direction: row;
+   width: auto;
+}
+
+.header__logoImage{
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+    margin: 0 20px;
+    margin-top: 14px;
+    margin-bottom: 14px;
+}
+
+.header__logoName{
+    object-fit: contain;
+    margin: 0 20px;
+    margin-top: 20px;
+    color: white;
+    font-weight: bolder;
+}
+
+
+.header__post{
+    height: 12px;
+    padding: 10px;
+    border: transparent;
+    width: 100%;
+    margin-left: 50%;
+}
+
+.header__submit{
+    background-color: #ffffff;
+    border: 1px solid;
+    color: #111;
+    cursor: pointer;
+}
+
+.header__input{
+    width: 70%;
+}

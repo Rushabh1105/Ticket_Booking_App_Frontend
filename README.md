@@ -68,3 +68,8 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+### Backend is hosted on the following URL
+
+"https://ticket-booking-app-backend.onrender.com/api/v1/booking"
+Github Repository for the Above backend is = "https://github.com/Rushabh1105/Backend-for-Ticket-Booking.git"

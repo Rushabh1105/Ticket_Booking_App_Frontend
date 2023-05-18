@@ -1,0 +1,22 @@
+.container{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.box{
+    width: 40px;
+    height: 80px;
+    border: 1px solid black;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.contain{
+    align-items: center;
+    text-align: center;
+    
+}
