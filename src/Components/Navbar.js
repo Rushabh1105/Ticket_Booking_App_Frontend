@@ -15,6 +15,12 @@ const Navbar = () => {
         const response = await axios.post(API_ENDPOINT, {seats : value});
         setData(response.data.data);
     }
+    var e;
+    const handleValue = (event) => {
+        e.preventDefault();
+        setValue(event.target.value);
+        console.log(value);
+    }
 
   return (
     <div className='header' >
@@ -27,7 +33,7 @@ const Navbar = () => {
         </div>
 
         <div className="header__post">
-            <input type="text" className='header__input' onChange={(e) => {setValue(e.target.value)}}  />
+            <input type="text" className='header__input' onChange={handleValue} />
             <button className='header__submit' onClick={handleClick} >Book Now!!!</button>
         </div>
 
